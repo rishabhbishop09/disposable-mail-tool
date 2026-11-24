@@ -1,0 +1,23 @@
+{
+  "module": "disposable-mail-tool",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "mailbox": {
+      "enabled": true
+    },
+    "api": {
+      "enabled": true
+    },
+    "parser": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
